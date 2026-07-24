@@ -817,72 +817,18 @@ PRICE LIST
 
 
 /*==========================
- Mobile
+MOBILE
 ===========================*/
 
 @media screen and (max-width:768px){
 
 .pricing{
 
-    padding:70px 20px;
+    padding:60px 18px;
+
+    background-size:cover;
 
     background-position:center;
-
-}
-
-.sub-title{
-
-    font-size:14px;
-
-    letter-spacing:5px;
-
-}
-
-.pricing h2{
-
-    font-size:38px;
-
-    line-height:1.2;
-
-}
-
-.pricing h3{
-
-    font-size:36px;
-
-    margin-top:8px;
-
-}
-
-.category{
-
-    width:100%;
-
-    padding:12px;
-
-    font-size:13px;
-
-    line-height:1.6;
-
-}
-
-.package-title{
-
-    width:100%;
-
-    max-width:320px;
-
-    height:60px;
-
-    margin:45px auto;
-
-    font-size:22px;
-
-}
-
-.package-title i{
-
-    font-size:20px;
 
 }
 
@@ -892,47 +838,49 @@ PRICE LIST
 
     grid-template-columns:1fr;
 
-    gap:20px;
+    gap:18px;
 
 }
 
 .card{
 
-    padding:28px 20px;
+    width:100%;
 
-    border-radius:22px;
+    max-width:360px;
+
+    margin:auto;
+
+    padding:24px 18px;
+
+    border-radius:20px;
 
 }
 
 .card h4{
 
-    font-size:22px;
+    font-size:20px;
 
-    line-height:1.4;
+    line-height:1.5;
 
 }
 
 .card img{
 
-    width:70px;
+    width:65px;
 
-    height:70px;
+    height:65px;
 
-    margin:25px auto;
-
-    display:block;
+    margin:20px auto;
 
 }
 
 .price{
 
-    width:120px;
+    width:115px;
 
     padding:10px;
 
-    font-size:28px;
-
-    border-radius:12px;
+    font-size:26px;
 
 }
 
@@ -940,37 +888,13 @@ PRICE LIST
 
     font-size:15px;
 
-    margin-top:18px;
-
-}
-
-.best{
-
-    transform:none;
-
-}
-
-.best-seller{
-
-    font-size:11px;
-
-    padding:7px 14px;
-
-    top:-14px;
-
-}
-
-.benefit ul{
-
-    margin-top:18px;
-
 }
 
 .benefit li{
 
     font-size:14px;
 
-    margin:14px 0;
+}
 
 }
 
@@ -984,8 +908,43 @@ PRICE LIST
 
 }
 
+
+
+/*==========================
+TABLET
+===========================*/
+
+@media screen and (max-width:992px) and (min-width:769px){
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
 }
 
+.card{
+
+    padding:30px 22px;
+
+}
+
+.card img{
+
+    width:80px;
+
+}
+
+.price{
+
+    width:130px;
+
+    font-size:30px;
+
+}
+
+}
 /*================================================================*/
 /* HALAMAN 3 */
 /* ADD ON SERVICES */
